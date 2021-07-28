@@ -1,0 +1,50 @@
+Sat 23 May 2020 17:42:38 conftest.py init_driver INFO [line:12 *****conftest.py共享的init_driver的前置*****]
+Sat 23 May 2020 17:42:44 conftest.py init_login INFO [line:25 init_login前置]
+Sat 23 May 2020 17:42:44 basepage.py wait_element_visible INFO [line:18 在登录页面-输入用户名开始等待('name', 'account')元素可见]
+Sat 23 May 2020 17:42:44 basepage.py wait_element_visible INFO [line:31 等待元素可见共用时：0:00:00.033002]
+Sat 23 May 2020 17:42:44 basepage.py get_element INFO [line:76 在 登录页面-输入用户名 查找元素：('name', 'account').]
+Sat 23 May 2020 17:42:44 basepage.py input_text INFO [line:111 在登录页面-输入用户名输入文本13711743452]
+Sat 23 May 2020 17:42:44 basepage.py wait_element_visible INFO [line:18 在登录页面-输入密码开始等待('name', 'pass')元素可见]
+Sat 23 May 2020 17:42:45 basepage.py wait_element_visible INFO [line:31 等待元素可见共用时：0:00:00.034002]
+Sat 23 May 2020 17:42:45 basepage.py get_element INFO [line:76 在 登录页面-输入密码 查找元素：('name', 'pass').]
+Sat 23 May 2020 17:42:45 basepage.py input_text INFO [line:111 在登录页面-输入密码输入文本xsy123456]
+Sat 23 May 2020 17:42:45 basepage.py wait_element_visible INFO [line:18 在登录页面-点击登录按钮开始等待('xpath', '//div[@class="padding-cont pt-login"]//a[@class="btn-btn"]')元素可见]
+Sat 23 May 2020 17:42:45 basepage.py wait_element_visible INFO [line:31 等待元素可见共用时：0:00:00.038002]
+Sat 23 May 2020 17:42:45 basepage.py get_element INFO [line:76 在 登录页面-点击登录按钮 查找元素：('xpath', '//div[@class="padding-cont pt-login"]//a[@class="btn-btn"]').]
+Sat 23 May 2020 17:42:45 basepage.py click_element INFO [line:100 在登录页面-点击登录按钮点击元素('xpath', '//div[@class="padding-cont pt-login"]//a[@class="btn-btn"]')]
+Sat 23 May 2020 17:42:45 test_homework.py init INFO [line:13 homework用例自己的前置]
+Sat 23 May 2020 17:42:45 basepage.py wait_element_visible INFO [line:18 在课堂页面-点击加入课程开始等待('xpath', '//div[@class="ktcon1l fr"]')元素可见]
+Sat 23 May 2020 17:42:47 basepage.py wait_element_visible INFO [line:31 等待元素可见共用时：0:00:01.821104]
+Sat 23 May 2020 17:42:47 basepage.py get_element INFO [line:76 在 课堂页面-点击加入课程 查找元素：('xpath', '//div[@class="ktcon1l fr"]').]
+Sat 23 May 2020 17:42:47 basepage.py click_element INFO [line:100 在课堂页面-点击加入课程点击元素('xpath', '//div[@class="ktcon1l fr"]')]
+Sat 23 May 2020 17:42:47 basepage.py wait_element_visible INFO [line:18 在课堂页面-输入加课验证码开始等待('xpath', '//div[@class="chuangjiankccon"]//input')元素可见]
+Sat 23 May 2020 17:42:47 basepage.py wait_element_visible INFO [line:31 等待元素可见共用时：0:00:00.043002]
+Sat 23 May 2020 17:42:47 basepage.py get_element INFO [line:76 在 课堂页面-输入加课验证码 查找元素：('xpath', '//div[@class="chuangjiankccon"]//input').]
+Sat 23 May 2020 17:42:47 basepage.py input_text INFO [line:111 在课堂页面-输入加课验证码输入文本P69UVV]
+Sat 23 May 2020 17:42:47 basepage.py wait_element_visible INFO [line:18 在课堂页面-点击加入开始等待('xpath', '//li[@class="cjli2"]//a')元素可见]
+Sat 23 May 2020 17:42:47 basepage.py wait_element_visible INFO [line:31 等待元素可见共用时：0:00:00.035002]
+Sat 23 May 2020 17:42:47 basepage.py get_element INFO [line:76 在 课堂页面-点击加入 查找元素：('xpath', '//li[@class="cjli2"]//a').]
+Sat 23 May 2020 17:42:47 basepage.py click_element INFO [line:100 在课堂页面-点击加入点击元素('xpath', '//li[@class="cjli2"]//a')]
+Sat 23 May 2020 17:42:47 basepage.py wait_element_visible INFO [line:18 在课堂页面-点击班级链接开始等待('xpath', '//dt[@class="bgclass1"]//a[@title="python-web项目实战- 考核项目"]')元素可见]
+Sat 23 May 2020 17:42:47 basepage.py wait_element_visible INFO [line:31 等待元素可见共用时：0:00:00.034002]
+Sat 23 May 2020 17:42:47 basepage.py get_element INFO [line:76 在 课堂页面-点击班级链接 查找元素：('xpath', '//dt[@class="bgclass1"]//a[@title="python-web项目实战- 考核项目"]').]
+Sat 23 May 2020 17:42:47 basepage.py click_element INFO [line:100 在课堂页面-点击班级链接点击元素('xpath', '//dt[@class="bgclass1"]//a[@title="python-web项目实战- 考核项目"]')]
+Sat 23 May 2020 17:42:47 basepage.py save_page_shot INFO [line:73 截取当前网页图片成功，并保存在：E:\PycharmProjects\web_practise_ketangpai\outputs/screenshots\课堂页面-点击班级链接_2020-05-23 17_42_47.png]
+Sat 23 May 2020 17:42:47 basepage.py click_element ERROR [line:105 点击元素失败]
+Traceback (most recent call last):
+  File "E:\PycharmProjects\web_practise_ketangpai\common\basepage.py", line 102, in click_element
+    ele.click()
+  File "D:\soft\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "D:\soft\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "D:\soft\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\soft\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Element <a href="/Interact/index/courseid/MDAwMDAwMDAwMLR2vd6Gz8mw.html" title="..." class="jumptoclass" data-id="MDAwMDAwMDAwMLR2vd6Gz8mw">python-web项目实战- 考核项目</a> is not clickable at point (174, 207). Other element would receive the click: <div class="bg" style="display: block;"></div>
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+Sat 23 May 2020 17:42:48 conftest.py init_login INFO [line:28 init_login后置]
+Sat 23 May 2020 17:42:51 conftest.py init_driver INFO [line:20 *****conftest.py共享的init_driver的后置*****]

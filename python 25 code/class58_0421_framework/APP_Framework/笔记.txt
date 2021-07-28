@@ -1,0 +1,58 @@
+1、PO模式 - 四层
+
+2、basepage - 公共操作层。
+   webpage
+   mobilepage
+
+   手机端的页面与web端的页面：屏幕小，触屏，呈现的内容是比较少的。
+
+
+3、启动会话：
+   web: driver = webdriver.Chrome()
+   app: automationName = UiAutomator2
+        platformName =
+        platformVersion
+        deviceName
+        appPackage
+        appActivity
+        noReset
+        chromdriverExecutable
+        unicodeKeyboard
+        chromeOption
+        ......
+        ....
+   # 配置功能：py,yaml,ini,
+   列表：-
+   字典：key: value
+   纯量
+
+   pyyaml
+
+   # 打开一个yaml文件，使用load将它变成python对象。
+
+
+
+
+# npm - 命令行安装appium - 无界面 - 命令行参数
+# desktop -
+
+
+
+# 命令行启动desktop的appium
+C:\Program Files\Appium\resources\app\node_modules\appium\build\lib>
+node main.js  --- 启动appium
+node main.js --help   查看启动参数
+
+# 1、appium server要是启动状态   用例结束之后，关闭服务。
+# 2、检测一下是否有设备连接。如果没有呢，用例不执行。如果有呢，就获取版本号。
+  adb devices  -- 希望通过代码去执行adb devices命令。从结果当中，来判断是否有设备连接。
+          用python去执行adb devices    ,要获取命令执行后输出结果？--
+
+  获取设备的版本号？？ -- appium server日志，adb命令获取了连接设备的版本号。
+
+
+# 3、多设备并发。
+     1、多线程
+     2、pytest - pytest-xdist和pytest-parallel
+     3、grid
+

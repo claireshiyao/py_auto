@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>python25网页了解</title>
+</head>
+<body>
+<form action="">
+    <input type="text" >
+    性别
+    <input type="radio" name="sex" value="999999">男
+    <input type="radio" name="sex">女
+    <input type="radio" name="sex">未知
+
+    <br>
+    <input type="checkbox">音乐
+    <input type="checkbox">睡觉
+    <input type="checkbox">吃
+    <input type="checkbox">买买买
+
+    <br>
+    <input type="file">
+    <br>
+    <input type="submit">
+    <input type="button" value="点我" id="press">
+
+    <br>
+    <img src="http://www.baidu.com/img/bd_logo1.png" alt="" style="width:400px;height:300px;">
+
+
+    <br>
+<!--    链接-->
+    <a href="https://www.ketangpai.com/Home/User/login.html">
+        <span>点我去做作业</span>
+    </a>
+<!--    块级元素：不代表任何内容-->
+    <div>
+
+    </div>
+
+    <!--表格-->
+    <table>
+        <th></th>
+        <tr></tr>
+        <td></td>
+    </table>
+
+<!--    列表-->
+    <ul>
+        <li></li>
+    </ul>
+
+<!--    下拉列表-->
+    <select name="" id="">
+        <option value="文件格式">请选择</option>
+        <option value="txt">文本</option>
+        <option value="doc">doc文档</option>
+    </select>
+
+<!--    内嵌页面-->
+    <br>
+    <iframe src="http://www.baidu.com" frameborder="0" width="550"></iframe>
+
+<!--    文本域-->
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+
+
+</form>
+
+<script>
+    var hello = "world";
+    var a = document.getElementById("press");
+    a.onclick = function(){alert("恭喜抽中大奖");};
+</script>
+
+</body>
+</html>

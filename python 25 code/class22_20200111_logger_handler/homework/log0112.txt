@@ -1,0 +1,1 @@
+logger_handler_3.py:31:log0112:DEBUG:hello world

@@ -1,0 +1,28 @@
+变量：存储数据
+标识符：自己命名的东西就叫标识符。
+变量名称是标识符。
+函数，类，模块，包，都是标识符。
+关键字不是标识符，是python命名的。
+
+数据类型：int,float,str,bool,list,tuple,dict,set
+获取数据类型：type
+数据类型转化：int(),str(),dict(),list()
+
+字符串的表示：'',"","""""",
+字符串出现了引号，避免冲突。
+反斜杠：\\，r"my string"
+
+字符串操作
+len()  长度获取
+str[1]  获取单个字符，索引
+如果超出界限，会报错IndexError
+
+切片，获取多个字符串。str[start:end:step]
+取左不取右
+step：中间隔step-1个字符去获取。
+step: 可以为负数，从右往左数。
+
+slice如果超出范围，不会报错，获取不到其他的内容。
+
+format
+"my string  {} other string {}".format(变量1，变量2)

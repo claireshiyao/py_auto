@@ -1,0 +1,25 @@
+1、收到http请求
+2、创建会话
+3、确认当前是否有连接的设备，并且确认是否匹配安卓版本
+4、确认设备上有没有指定包名的app
+5、往设备上安装appium自己的 setting apk包。若已安装，需要确认apk版本是否匹配。
+6、appium会往设备上推送一个appiumbootstrap.jar包。--java代码
+   ---运行jar包，在手机上启动一个ip+端口。接收来自appium server的请求,调用手机上的自动化框架执行操作。
+
+  io.appium.uiautomator2.server
+  io.appium.uiautomator2.server.test
+
+7、响应http请求
+8、下一个http请求。。
+
+
+安卓系统本身，有自动化框架。 --- 直接写java代码，调用自动化框架里的api。丢到手机上。
+uiautomatorviewer.bat
+
+以上3种定位告诉你： 任何一个app自动化测试的框架，都会给你提供一个对应的定位工具哦！
+
+android自带的UiAutomator测试框架，提供 uiAutomatorViewer。
+appium测试框架，提供appium inspector.
+python实现的uiAutomator2测试框架，提供weditor
+
+在app自动化测试的过程中，可以使用任意一种或多种来帮你进行元素定位。

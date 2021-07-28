@@ -1,0 +1,12 @@
+demo:
+- 木森
+- hello
+excel:
+  file: cases.xlsx
+  sheet: login
+logger:
+  file: python25.txt
+  level: DEBUG
+  name: python25
+request:
+  method: post

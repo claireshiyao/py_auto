@@ -1,0 +1,94 @@
+Wed 25 Mar 2020 22:57:46 basepage.py wait_element_visible INFO [line:19 在登录页面-输入用户名开始等待('xpath', '//input[@name="phone"]')元素可见]
+Wed 25 Mar 2020 22:57:46 basepage.py wait_element_visible INFO [line:32 等待元素可见共用时：0:00:00.184011]
+Wed 25 Mar 2020 22:57:46 basepage.py get_element INFO [line:45 在 登录页面-输入用户名 查找元素：('xpath', '//input[@name="phone"]').]
+Wed 25 Mar 2020 22:57:46 basepage.py input_text INFO [line:80 在登录页面-输入用户名输入文本]
+Wed 25 Mar 2020 22:57:46 basepage.py wait_element_visible INFO [line:19 在登录页面-输入密码开始等待('xpath', '//input[@name="password"]')元素可见]
+Wed 25 Mar 2020 22:57:46 basepage.py wait_element_visible INFO [line:32 等待元素可见共用时：0:00:00.034002]
+Wed 25 Mar 2020 22:57:46 basepage.py get_element INFO [line:45 在 登录页面-输入密码 查找元素：('xpath', '//input[@name="password"]').]
+Wed 25 Mar 2020 22:57:46 basepage.py input_text INFO [line:80 在登录页面-输入密码输入文本python]
+Wed 25 Mar 2020 22:57:47 basepage.py wait_element_visible INFO [line:19 在登录页面-点击登录按钮开始等待('tag name', 'button')元素可见]
+Wed 25 Mar 2020 22:57:47 basepage.py wait_element_visible INFO [line:32 等待元素可见共用时：0:00:00.033002]
+Wed 25 Mar 2020 22:57:47 basepage.py get_element INFO [line:45 在 登录页面-点击登录按钮 查找元素：('tag name', 'button').]
+Wed 25 Mar 2020 22:57:47 basepage.py click_element INFO [line:69 在登录页面-点击登录按钮点击元素('tag name', 'button')]
+Wed 25 Mar 2020 22:57:47 basepage.py wait_element_visible INFO [line:19 在登录页面-等待登录表单的错误提示元素开始等待('xpath', '//div[@class= "form-error-info"]')元素可见]
+Wed 25 Mar 2020 22:57:47 basepage.py wait_element_visible INFO [line:32 等待元素可见共用时：0:00:00.034002]
+Wed 25 Mar 2020 22:57:47 basepage.py get_elements INFO [line:56 在 登录页面-获取登录表单的错误提示元素 查找所有匹配到的元素：('xpath', '//div[@class= "form-error-info"]').]
+Wed 25 Mar 2020 22:58:04 basepage.py wait_element_visible INFO [line:19 在登录页面-输入用户名开始等待('xpath', '//input[@name="phone"]')元素可见]
+Wed 25 Mar 2020 22:58:04 basepage.py wait_element_visible INFO [line:32 等待元素可见共用时：0:00:00.034002]
+Wed 25 Mar 2020 22:58:04 basepage.py get_element INFO [line:45 在 登录页面-输入用户名 查找元素：('xpath', '//input[@name="phone"]').]
+Wed 25 Mar 2020 22:58:04 basepage.py input_text INFO [line:80 在登录页面-输入用户名输入文本13760246701]
+Wed 25 Mar 2020 22:58:04 basepage.py wait_element_visible INFO [line:19 在登录页面-输入密码开始等待('xpath', '//input[@name="password"]')元素可见]
+Wed 25 Mar 2020 22:58:04 basepage.py wait_element_visible INFO [line:32 等待元素可见共用时：0:00:00.033002]
+Wed 25 Mar 2020 22:58:04 basepage.py get_element INFO [line:45 在 登录页面-输入密码 查找元素：('xpath', '//input[@name="password"]').]
+Wed 25 Mar 2020 22:58:04 basepage.py input_text INFO [line:80 在登录页面-输入密码输入文本]
+Wed 25 Mar 2020 22:58:04 basepage.py wait_element_visible INFO [line:19 在登录页面-点击登录按钮开始等待('tag name', 'button')元素可见]
+Wed 25 Mar 2020 22:58:04 basepage.py wait_element_visible INFO [line:32 等待元素可见共用时：0:00:00.032002]
+Wed 25 Mar 2020 22:58:04 basepage.py get_element INFO [line:45 在 登录页面-点击登录按钮 查找元素：('tag name', 'button').]
+Wed 25 Mar 2020 22:58:04 basepage.py click_element INFO [line:69 在登录页面-点击登录按钮点击元素('tag name', 'button')]
+Wed 25 Mar 2020 22:58:04 basepage.py wait_element_visible INFO [line:19 在登录页面-等待登录表单的错误提示元素开始等待('xpath', '//div[@class= "form-error-info"]')元素可见]
+Wed 25 Mar 2020 22:58:04 basepage.py wait_element_visible INFO [line:32 等待元素可见共用时：0:00:00.039002]
+Wed 25 Mar 2020 22:58:04 basepage.py get_elements INFO [line:56 在 登录页面-获取登录表单的错误提示元素 查找所有匹配到的元素：('xpath', '//div[@class= "form-error-info"]').]
+Wed 25 Mar 2020 22:58:13 basepage.py wait_element_visible INFO [line:19 在登录页面-输入用户名开始等待('xpath', '//input[@name="phone"]')元素可见]
+Wed 25 Mar 2020 22:58:13 basepage.py wait_element_visible INFO [line:32 等待元素可见共用时：0:00:00.033002]
+Wed 25 Mar 2020 22:58:13 basepage.py get_element INFO [line:45 在 登录页面-输入用户名 查找元素：('xpath', '//input[@name="phone"]').]
+Wed 25 Mar 2020 22:58:13 basepage.py input_text INFO [line:80 在登录页面-输入用户名输入文本1376024670]
+Wed 25 Mar 2020 22:58:13 basepage.py wait_element_visible INFO [line:19 在登录页面-输入密码开始等待('xpath', '//input[@name="password"]')元素可见]
+Wed 25 Mar 2020 22:58:13 basepage.py wait_element_visible INFO [line:32 等待元素可见共用时：0:00:00.036002]
+Wed 25 Mar 2020 22:58:13 basepage.py get_element INFO [line:45 在 登录页面-输入密码 查找元素：('xpath', '//input[@name="password"]').]
+Wed 25 Mar 2020 22:58:13 basepage.py input_text INFO [line:80 在登录页面-输入密码输入文本python]
+Wed 25 Mar 2020 22:58:14 basepage.py wait_element_visible INFO [line:19 在登录页面-点击登录按钮开始等待('tag name', 'button')元素可见]
+Wed 25 Mar 2020 22:58:14 basepage.py wait_element_visible INFO [line:32 等待元素可见共用时：0:00:00.036002]
+Wed 25 Mar 2020 22:58:14 basepage.py get_element INFO [line:45 在 登录页面-点击登录按钮 查找元素：('tag name', 'button').]
+Wed 25 Mar 2020 22:58:14 basepage.py click_element INFO [line:69 在登录页面-点击登录按钮点击元素('tag name', 'button')]
+Wed 25 Mar 2020 22:58:14 basepage.py wait_element_visible INFO [line:19 在登录页面-等待登录表单的错误提示元素开始等待('xpath', '//div[@class= "form-error-info"]')元素可见]
+Wed 25 Mar 2020 22:58:14 basepage.py wait_element_visible INFO [line:32 等待元素可见共用时：0:00:00.039002]
+Wed 25 Mar 2020 22:58:14 basepage.py get_elements INFO [line:56 在 登录页面-获取登录表单的错误提示元素 查找所有匹配到的元素：('xpath', '//div[@class= "form-error-info"]').]
+Wed 25 Mar 2020 22:58:23 basepage.py wait_element_visible INFO [line:19 在登录页面-输入用户名开始等待('xpath', '//input[@name="phone"]')元素可见]
+Wed 25 Mar 2020 22:58:23 basepage.py wait_element_visible INFO [line:32 等待元素可见共用时：0:00:00.033002]
+Wed 25 Mar 2020 22:58:23 basepage.py get_element INFO [line:45 在 登录页面-输入用户名 查找元素：('xpath', '//input[@name="phone"]').]
+Wed 25 Mar 2020 22:58:23 basepage.py input_text INFO [line:80 在登录页面-输入用户名输入文本13760246701]
+Wed 25 Mar 2020 22:58:23 basepage.py wait_element_visible INFO [line:19 在登录页面-输入密码开始等待('xpath', '//input[@name="password"]')元素可见]
+Wed 25 Mar 2020 22:58:24 basepage.py wait_element_visible INFO [line:32 等待元素可见共用时：0:00:00.031002]
+Wed 25 Mar 2020 22:58:24 basepage.py get_element INFO [line:45 在 登录页面-输入密码 查找元素：('xpath', '//input[@name="password"]').]
+Wed 25 Mar 2020 22:58:24 basepage.py input_text INFO [line:80 在登录页面-输入密码输入文本pytho]
+Wed 25 Mar 2020 22:58:24 basepage.py wait_element_visible INFO [line:19 在登录页面-点击登录按钮开始等待('tag name', 'button')元素可见]
+Wed 25 Mar 2020 22:58:24 basepage.py wait_element_visible INFO [line:32 等待元素可见共用时：0:00:00.031002]
+Wed 25 Mar 2020 22:58:24 basepage.py get_element INFO [line:45 在 登录页面-点击登录按钮 查找元素：('tag name', 'button').]
+Wed 25 Mar 2020 22:58:24 basepage.py click_element INFO [line:69 在登录页面-点击登录按钮点击元素('tag name', 'button')]
+Wed 25 Mar 2020 22:58:24 basepage.py wait_element_visible INFO [line:19 在登录页面-等待登录表单的错误弹框文本开始等待('xpath', '//div[@class ="layui-layer-content" and contains(text(), "帐号或密码错误")]')元素可见]
+Wed 25 Mar 2020 22:58:24 basepage.py wait_element_visible INFO [line:32 等待元素可见共用时：0:00:00.544031]
+Wed 25 Mar 2020 22:58:24 basepage.py get_elements INFO [line:56 在 登录页面-获取登录表单的错误弹框文本 查找所有匹配到的元素：('xpath', '//div[@class ="layui-layer-content" and contains(text(), "帐号或密码错误")]').]
+Wed 25 Mar 2020 22:58:35 basepage.py wait_element_visible INFO [line:19 在登录页面-输入用户名开始等待('xpath', '//input[@name="phone"]')元素可见]
+Wed 25 Mar 2020 22:58:35 basepage.py wait_element_visible INFO [line:32 等待元素可见共用时：0:00:00.036002]
+Wed 25 Mar 2020 22:58:35 basepage.py get_element INFO [line:45 在 登录页面-输入用户名 查找元素：('xpath', '//input[@name="phone"]').]
+Wed 25 Mar 2020 22:58:35 basepage.py input_text INFO [line:80 在登录页面-输入用户名输入文本13760246702]
+Wed 25 Mar 2020 22:58:35 basepage.py wait_element_visible INFO [line:19 在登录页面-输入密码开始等待('xpath', '//input[@name="password"]')元素可见]
+Wed 25 Mar 2020 22:58:35 basepage.py wait_element_visible INFO [line:32 等待元素可见共用时：0:00:00.051003]
+Wed 25 Mar 2020 22:58:35 basepage.py get_element INFO [line:45 在 登录页面-输入密码 查找元素：('xpath', '//input[@name="password"]').]
+Wed 25 Mar 2020 22:58:35 basepage.py input_text INFO [line:80 在登录页面-输入密码输入文本python]
+Wed 25 Mar 2020 22:58:35 basepage.py wait_element_visible INFO [line:19 在登录页面-点击登录按钮开始等待('tag name', 'button')元素可见]
+Wed 25 Mar 2020 22:58:35 basepage.py wait_element_visible INFO [line:32 等待元素可见共用时：0:00:00.037002]
+Wed 25 Mar 2020 22:58:35 basepage.py get_element INFO [line:45 在 登录页面-点击登录按钮 查找元素：('tag name', 'button').]
+Wed 25 Mar 2020 22:58:35 basepage.py click_element INFO [line:69 在登录页面-点击登录按钮点击元素('tag name', 'button')]
+Wed 25 Mar 2020 22:58:35 basepage.py wait_element_visible INFO [line:19 在登录页面-等待登录表单的错误弹框文本开始等待('xpath', '//div[@class ="layui-layer-content" and contains(text(), "帐号或密码错误")]')元素可见]
+Wed 25 Mar 2020 22:58:56 basepage.py save_page_shot INFO [line:42 截取当前网页图片成功，并保存在：E:\PycharmProjects\python25\web_auto_test\outputs/screenshots\登录页面-等待登录表单的错误弹框文本_2020-03-25 22_58_56.png]
+Wed 25 Mar 2020 22:58:56 basepage.py wait_element_visible ERROR [line:26 等待元素可见失败]
+Traceback (most recent call last):
+  File "E:\PycharmProjects\python25\web_auto_test\common\basepage.py", line 23, in wait_element_visible
+    WebDriverWait(self.driver, timeout, poll_frequency=poll_frequency).until(EC.visibility_of_element_located(loc))
+  File "D:\soft\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Wed 25 Mar 2020 22:58:56 test_login.py test_login_failed_wrong_passwd ERROR [line:49 断言失败，登录弹出框提示信息错误]
+Traceback (most recent call last):
+  File "E:\PycharmProjects\python25\web_auto_test\test_cases\test_login.py", line 47, in test_login_failed_wrong_passwd
+    self.assertEqual(wrong["check"], lp.get_error_hint())
+  File "E:\PycharmProjects\python25\web_auto_test\page_objects\login_page.py", line 33, in get_error_hint
+    self.wait_element_visible(locs.wrong_passwd_hint, "登录页面-等待登录表单的错误弹框文本")
+  File "E:\PycharmProjects\python25\web_auto_test\common\basepage.py", line 23, in wait_element_visible
+    WebDriverWait(self.driver, timeout, poll_frequency=poll_frequency).until(EC.visibility_of_element_located(loc))
+  File "D:\soft\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+

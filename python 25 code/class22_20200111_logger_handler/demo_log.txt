@@ -1,0 +1,5 @@
+d2_demo_logger.py:13:python25:INFO-hello
+d2_demo_logger.py:14:python25:INFO-hello
+d2_demo_logger.py:14:python25:INFO-hello
+d2_demo_logger.py:14:python25:INFO-hello
+d1_demo_logger.py:12:python21:INFO-D1

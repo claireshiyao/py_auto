@@ -1,0 +1,75 @@
+fixture: 前置后置
+   unittest: 固定名称：setup、teardown   setupclass,teardownclass  测试函数-测试类
+             与测试类一起。
+
+   pytest: 不固定的名字(函数)/ 前置后置放在一个函数里。/ 独立的，不与测试类放在一起/ 测试函数/类/模块/会话
+      定义：1、怎么知道函数它是一个前置后置？
+           2、怎么区分前置和后置？
+           3、作用域是什么？测试函数/类/模块/会话？
+           4、如果返回数据？
+      共享：conftest.py ---名称固定。专
+            1）专门用来存放fixture.
+            2）作用域(哪些范围内的用例都可以使用)：conftest.py所在的文件夹内的用例都可以使用
+            3）用例文件当中不需要引入，直接调用fixture名称就可以了。
+            4）可以在不同的层级，创建conftest.py
+
+     调用： 4、测试用例当中，如何调用这个前置后置？
+            5、如何接收fixture的返回值？
+
+     定义：1、怎么知道函数它是一个前置&后置？
+           在函数前面 ：@pytest.fixture
+           @pytest.fixture
+           def init():
+              pass
+
+           2、怎么区分前置和后置？ yield -- 前后置的分隔分
+           @pytest.fixture
+           def init():
+              driver = webdriver.Chrome()
+              driver.get("http://www.baidu.com")
+              yield
+              driver.quit()
+
+           3、作用域是什么？测试函数/类/模块/会话？  @pytest.fixture(scope=?)
+              function: 默认值。 -- unittest当中setup和teardown。夹了测试用例。
+                                 3个鸡蛋 - 3个测试用例 - 6片面包
+              class：测试类。 --- unittest当中setupClass和teardownClass. 面包里夹的是测试类
+                                 3个鸡蛋 - 3个测试用例 - 1个类 - 2片面包
+              module: 模块。.py   ---- 整个py文件。  厨房里找到的鸡蛋 -- 2片面包
+              session：会话。 --- 夹是你收集到的所有测试用例。 家里所有的鸡蛋 -- 2片面包
+                  接口：前置: 连接数据库？    后置：关闭连接
+
+           4、返回前置当中的变量：yield 返回值
+
+   调用： 4、测试用例当中，如何调用这个前置后置？
+          在测试用例/类的前面：
+          @pytest.mark.usefixture("定义的fixture名称")
+          执行了init对应的前置动作
+
+          5、接收返回值的方式：
+             将fixture的函数名称，作为用例的参数
+             用例的参数 = 返回值
+
+             测试用例的参数：1、数据驱动;2、fixture的返回值。
+             如果你要使用fixture的返回值，那一定要传参。可以不用@pytest.mark.usefixtures
+             如果fixture没有返回值,测试要使用，必须申明：@pytest.mark.usefixtures
+
+
+fixture - 灵魂很自由。定义/调用
+
+定义：申明pytest.fixture/yield区分前后置/作用域scope
+      1) 测试用例文件当中定义
+      2）conftest.py当中定义 --  共享
+         2.1) conftest.py定义的fixture,哪些范围内的用例可以调用我：
+              conftest.py所在的包下，所有的用例均可以。
+         2.2) 在不同的包下，可以创建自己的conftest.py
+
+调用：测试用例/测试类
+      1）用例不需要使用fixture返回值：@pytest.mark.usefixtures("")
+      2）用例要使用fixture的返回值：
+            方式一：@pytest.mark.usefixtures("")。fixture函数名称作为用例参数。
+            方式二：fixture函数名称作为用例参数。
+         用例的参数有2种：1）数据驱动 1）fixture
+      3) 你需要的时候才调用。
+      4）如果测试类下面，所有的测试用例，都使用同一个函数级别的前置后置，
+         那么可以直接在类名上，申明调用：@pytest.mark.usefixtures("函数级别的fixture")

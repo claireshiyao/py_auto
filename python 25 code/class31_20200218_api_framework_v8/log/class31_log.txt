@@ -1,0 +1,20 @@
+test_register.py:69:python25:ERROR-断言失败，用例不通过：'无效的手机格式' != 'OK'
+- 无效的手机格式
++ OK
+
+test_register.py:69:python25:ERROR-断言失败，用例不通过：'无效的手机格式' != '账号已存在'
+- 无效的手机格式
++ 账号已存在
+
+test_register.py:69:python25:ERROR-断言失败，用例不通过：'无效的手机格式' != 'OK'
+- 无效的手机格式
++ OK
+
+test_register.py:69:python25:ERROR-断言失败，用例不通过：'无效的手机格式' != '账号已存在'
+- 无效的手机格式
++ 账号已存在
+
+test_01_register.py:68:python25:ERROR-断言失败，用例不通过：'无效的手机格式' != 'OK'
+- 无效的手机格式
++ OK
+

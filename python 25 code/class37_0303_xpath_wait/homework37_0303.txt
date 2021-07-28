@@ -1,0 +1,64 @@
+1. 课堂页面：Python全栈第25期
+//div[@id="viewer-container-lists"]//a[@class="jumptoclass"]
+
+2. Python全栈第25期页面：作业
+//div[@id="third-nav"]//a[@class="active"]
+
+3. 作业页面：20191214-元素定位练习！！
+//a[contains(text(), "元素定位练习") and contains(@href,"/Homework/handup/homeworkid/")] 
+
+4. 作业页面20191214-元素定位练习！！：查看全文
+//a[contains(text(), "元素定位练习") and contains(@href,"/Homework/handup/homeworkid/")] /parent::*/following-sibling::*/child::*/a[contains(text(), "查看全文")]
+
+5. 20191214-元素定位练习页面：提交作业
+//div[@id="third-nav"]//a[@class="active"]
+
+6. 20191214-元素定位练习页面：作业讨论
+//div[@id="third-nav"]//a[contains(@href, "/Discuss/index/homeworkid/")]
+
+7. 提交作业页面：添加作业文件
+//div[@id="viewer-handup"]//div[@class="sc-tj-box sc-tj-box-new"]
+
+8. 提交作业页面：删除
+//div[@class="opt clearfix"]//a[@class="cancel"]
+
+9. 提交作业页面：提交
+//div[@class="sc-tj fl"]//a[@class="tj-btn active"]
+
+10. 作业讨论页面：添加评论文本框
+//textarea[@class="comment-txt"]
+
+11. 作业讨论页面：添加附件按钮
+//input[@name="file"]
+
+12. 作业讨论页面：确定按钮
+//div[@class="opt-btn fr"]//a[@class="sure"]
+
+13. 作业讨论页面：下载讨论内容
+//div[@class="dldiscusschart fl"]
+
+14. 消息通知按钮
+//a[@id="notice"]
+
+15. 消息通知内容列表的某个链接
+//a[@class="link" and contains(text(), "接口实战项目")]
+
+16. 作业页面：元素定位练习作业：已提交按钮
+ps:目前作业页面只有一个已提交按钮，但实际测试时页面是变化的，所以需通过轴定位到该次作业的提交按钮。
+//a[contains(text(), "元素定位练习") and contains(@href,"/Homework/handup/homeworkid/")]/ancestor::div[@class="work-new-l fl"]/following-sibling::div//a[@class="view-work"]
+
+17. 作业页面：元素定位练习作业：查看提交日志链接
+//a[@class="togglesee" and contains(text(), "查看日志")]
+
+18. 作业页面：元素定位练习作业：收起日志链接
+//a[@class="togglesee" and contains(text(), "收起日志")]
+
+19. 作业页面：元素定位练习作业：文件名称链接
+//h3[@class="file-name"]//a[@class="fileext"]
+
+20. 用户头像
+//img[@class="avatar"]
+
+21. 个人设置
+//a[@class="link setting"]
+

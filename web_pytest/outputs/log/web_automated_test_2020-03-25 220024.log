@@ -1,0 +1,10 @@
+Wed 25 Mar 2020 22:00:31 basepage.py wait_element_visible INFO [line:19 在百度页面_搜索输入操作开始等待('id', 'kw1')元素可见]
+Wed 25 Mar 2020 22:00:37 basepage.py save_page_shot INFO [line:42 截取当前网页图片成功，并保存在：E:\PycharmProjects\python25\web_auto_test\outputs/screenshots\百度页面_搜索输入操作_2020-03-25 22_00_36.png]
+Wed 25 Mar 2020 22:00:37 basepage.py wait_element_visible ERROR [line:26 等待元素可见失败]
+Traceback (most recent call last):
+  File "E:/PycharmProjects/python25/web_auto_test/common/basepage.py", line 23, in wait_element_visible
+    WebDriverWait(self.driver, timeout, poll_frequency=poll_frequency).until(EC.visibility_of_element_located(loc))
+  File "D:\soft\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+

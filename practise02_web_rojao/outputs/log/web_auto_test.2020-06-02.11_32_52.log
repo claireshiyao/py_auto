@@ -1,0 +1,118 @@
+Tue 02 Jun 2020 11:32:52 conftest.py init_driver INFO [line:12 *****conftest.py共享的init_driver的前置*****]
+Tue 02 Jun 2020 11:33:01 conftest.py init_login INFO [line:25 init_login前置]
+Tue 02 Jun 2020 11:33:01 basepage.py wait_element_visible INFO [line:19 在登录页面-输入用户名开始等待('id', 'username')元素可见]
+Tue 02 Jun 2020 11:33:01 basepage.py wait_element_visible INFO [line:32 等待元素可见共用时：0:00:00.039893]
+Tue 02 Jun 2020 11:33:01 basepage.py get_element INFO [line:77 在 登录页面-输入用户名 查找元素：('id', 'username').]
+Tue 02 Jun 2020 11:33:01 basepage.py input_text INFO [line:112 在登录页面-输入用户名输入文本admin]
+Tue 02 Jun 2020 11:33:01 basepage.py wait_element_visible INFO [line:19 在登录页面-输入密码开始等待('id', 'password')元素可见]
+Tue 02 Jun 2020 11:33:01 basepage.py wait_element_visible INFO [line:32 等待元素可见共用时：0:00:00.031915]
+Tue 02 Jun 2020 11:33:01 basepage.py get_element INFO [line:77 在 登录页面-输入密码 查找元素：('id', 'password').]
+Tue 02 Jun 2020 11:33:01 basepage.py input_text INFO [line:112 在登录页面-输入密码输入文本Rojao@123]
+Tue 02 Jun 2020 11:33:01 basepage.py wait_element_visible INFO [line:19 在登录页面-点击登录按钮开始等待('id', 'to-recover')元素可见]
+Tue 02 Jun 2020 11:33:02 basepage.py wait_element_visible INFO [line:32 等待元素可见共用时：0:00:00.030917]
+Tue 02 Jun 2020 11:33:02 basepage.py get_element INFO [line:77 在 登录页面-点击登录按钮 查找元素：('id', 'to-recover').]
+Tue 02 Jun 2020 11:33:02 basepage.py click_element INFO [line:101 在登录页面-点击登录按钮点击元素('id', 'to-recover')]
+Tue 02 Jun 2020 11:33:02 test_material_format.py init INFO [line:12 素材格式测试用例自己的前置]
+Tue 02 Jun 2020 11:33:02 basepage.py wait_element_visible INFO [line:19 在点击广告管理开始等待('xpath', '//i[@class="fa fa-star-half-o"]')元素可见]
+Tue 02 Jun 2020 11:33:03 basepage.py wait_element_visible INFO [line:32 等待元素可见共用时：0:00:00.944474]
+Tue 02 Jun 2020 11:33:03 basepage.py get_element INFO [line:77 在 点击广告管理 查找元素：('xpath', '//i[@class="fa fa-star-half-o"]').]
+Tue 02 Jun 2020 11:33:03 basepage.py click_element INFO [line:101 在点击广告管理点击元素('xpath', '//i[@class="fa fa-star-half-o"]')]
+Tue 02 Jun 2020 11:33:03 basepage.py wait_element_visible INFO [line:19 在点击素材格式开始等待('xpath', '//a[@data-index="adv/advmaterialtype.html"]')元素可见]
+Tue 02 Jun 2020 11:33:03 basepage.py wait_element_visible INFO [line:32 等待元素可见共用时：0:00:00.044880]
+Tue 02 Jun 2020 11:33:03 basepage.py get_element INFO [line:77 在 点击素材格式 查找元素：('xpath', '//a[@data-index="adv/advmaterialtype.html"]').]
+Tue 02 Jun 2020 11:33:03 basepage.py click_element INFO [line:101 在点击素材格式点击元素('xpath', '//a[@data-index="adv/advmaterialtype.html"]')]
+Tue 02 Jun 2020 11:33:03 basepage.py switch_to_iframe INFO [line:153 在切换至素材格式iframe等待iframe元素('xpath', '//div[@id="iframe_adv_advmaterialtype_html"]//iframe[@class="tab_iframe"]')可用并切换到iframe]
+Tue 02 Jun 2020 11:33:04 basepage.py wait_element_visible INFO [line:19 在点击复选框开始等待('xpath', '//input[@data-index="0" and @name="btSelectItem"]')元素可见]
+Tue 02 Jun 2020 11:33:04 basepage.py wait_element_visible INFO [line:32 等待元素可见共用时：0:00:00.106715]
+Tue 02 Jun 2020 11:33:04 basepage.py get_element INFO [line:77 在 点击复选框 查找元素：('xpath', '//input[@data-index="0" and @name="btSelectItem"]').]
+Tue 02 Jun 2020 11:33:04 basepage.py click_element INFO [line:101 在点击复选框点击元素('xpath', '//input[@data-index="0" and @name="btSelectItem"]')]
+Tue 02 Jun 2020 11:33:04 basepage.py wait_element_visible INFO [line:19 在点击删除按钮开始等待('xpath', '//a[@id="delete"]')元素可见]
+Tue 02 Jun 2020 11:33:05 basepage.py wait_element_visible INFO [line:32 等待元素可见共用时：0:00:00.096741]
+Tue 02 Jun 2020 11:33:05 basepage.py get_element INFO [line:77 在 点击删除按钮 查找元素：('xpath', '//a[@id="delete"]').]
+Tue 02 Jun 2020 11:33:05 basepage.py click_element INFO [line:101 在点击删除按钮点击元素('xpath', '//a[@id="delete"]')]
+Tue 02 Jun 2020 11:33:05 basepage.py wait_element_visible INFO [line:19 在点击确定按钮开始等待('xpath', '//a[@class="layui-layer-btn0"]')元素可见]
+Tue 02 Jun 2020 11:33:05 basepage.py wait_element_visible INFO [line:32 等待元素可见共用时：0:00:00.059840]
+Tue 02 Jun 2020 11:33:05 basepage.py get_element INFO [line:77 在 点击确定按钮 查找元素：('xpath', '//a[@class="layui-layer-btn0"]').]
+Tue 02 Jun 2020 11:33:05 basepage.py click_element INFO [line:101 在点击确定按钮点击元素('xpath', '//a[@class="layui-layer-btn0"]')]
+Tue 02 Jun 2020 11:33:05 basepage.py wait_element_visible INFO [line:19 在点击确定按钮开始等待('xpath', '//a[@class="layui-layer-btn0"]')元素可见]
+Tue 02 Jun 2020 11:33:05 basepage.py wait_element_visible INFO [line:32 等待元素可见共用时：0:00:00.018949]
+Tue 02 Jun 2020 11:33:05 basepage.py get_element INFO [line:77 在 点击确定按钮 查找元素：('xpath', '//a[@class="layui-layer-btn0"]').]
+Tue 02 Jun 2020 11:33:05 basepage.py click_element INFO [line:101 在点击确定按钮点击元素('xpath', '//a[@class="layui-layer-btn0"]')]
+Tue 02 Jun 2020 11:33:05 basepage.py save_page_shot INFO [line:74 截取当前网页图片成功，并保存在：D:\python\PycharmProjects\practise02_web_rojao\outputs/screenshots\点击确定按钮_2020-06-02 11_33_05.png]
+Tue 02 Jun 2020 11:33:05 basepage.py click_element ERROR [line:106 点击元素失败]
+Traceback (most recent call last):
+  File "D:\python\PycharmProjects\practise02_web_rojao\common\basepage.py", line 103, in click_element
+    ele.click()
+  File "C:\Users\zt\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\zt\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\zt\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\zt\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=81.0.4044.138)
+
+Tue 02 Jun 2020 11:33:06 test_material_format.py init INFO [line:15 素材格式测试用例自己的后置]
+Tue 02 Jun 2020 11:33:06 conftest.py init_login INFO [line:28 init_login后置]
+Tue 02 Jun 2020 11:33:10 conftest.py init_driver INFO [line:20 *****conftest.py共享的init_driver的后置*****]
+Tue 02 Jun 2020 11:33:13 conftest.py init_driver INFO [line:12 *****conftest.py共享的init_driver的前置*****]
+Tue 02 Jun 2020 11:33:24 conftest.py init_login INFO [line:25 init_login前置]
+Tue 02 Jun 2020 11:33:24 basepage.py wait_element_visible INFO [line:19 在登录页面-输入用户名开始等待('id', 'username')元素可见]
+Tue 02 Jun 2020 11:33:24 basepage.py wait_element_visible INFO [line:32 等待元素可见共用时：0:00:00.039893]
+Tue 02 Jun 2020 11:33:24 basepage.py get_element INFO [line:77 在 登录页面-输入用户名 查找元素：('id', 'username').]
+Tue 02 Jun 2020 11:33:24 basepage.py input_text INFO [line:112 在登录页面-输入用户名输入文本admin]
+Tue 02 Jun 2020 11:33:24 basepage.py wait_element_visible INFO [line:19 在登录页面-输入密码开始等待('id', 'password')元素可见]
+Tue 02 Jun 2020 11:33:24 basepage.py wait_element_visible INFO [line:32 等待元素可见共用时：0:00:00.028923]
+Tue 02 Jun 2020 11:33:24 basepage.py get_element INFO [line:77 在 登录页面-输入密码 查找元素：('id', 'password').]
+Tue 02 Jun 2020 11:33:24 basepage.py input_text INFO [line:112 在登录页面-输入密码输入文本Rojao@123]
+Tue 02 Jun 2020 11:33:24 basepage.py wait_element_visible INFO [line:19 在登录页面-点击登录按钮开始等待('id', 'to-recover')元素可见]
+Tue 02 Jun 2020 11:33:24 basepage.py wait_element_visible INFO [line:32 等待元素可见共用时：0:00:00.022938]
+Tue 02 Jun 2020 11:33:24 basepage.py get_element INFO [line:77 在 登录页面-点击登录按钮 查找元素：('id', 'to-recover').]
+Tue 02 Jun 2020 11:33:24 basepage.py click_element INFO [line:101 在登录页面-点击登录按钮点击元素('id', 'to-recover')]
+Tue 02 Jun 2020 11:33:24 test_material_format.py init INFO [line:12 素材格式测试用例自己的前置]
+Tue 02 Jun 2020 11:33:24 basepage.py wait_element_visible INFO [line:19 在点击广告管理开始等待('xpath', '//i[@class="fa fa-star-half-o"]')元素可见]
+Tue 02 Jun 2020 11:33:26 basepage.py wait_element_visible INFO [line:32 等待元素可见共用时：0:00:02.301841]
+Tue 02 Jun 2020 11:33:26 basepage.py get_element INFO [line:77 在 点击广告管理 查找元素：('xpath', '//i[@class="fa fa-star-half-o"]').]
+Tue 02 Jun 2020 11:33:26 basepage.py click_element INFO [line:101 在点击广告管理点击元素('xpath', '//i[@class="fa fa-star-half-o"]')]
+Tue 02 Jun 2020 11:33:27 basepage.py wait_element_visible INFO [line:19 在点击素材格式开始等待('xpath', '//a[@data-index="adv/advmaterialtype.html"]')元素可见]
+Tue 02 Jun 2020 11:33:27 basepage.py wait_element_visible INFO [line:32 等待元素可见共用时：0:00:00.074799]
+Tue 02 Jun 2020 11:33:27 basepage.py get_element INFO [line:77 在 点击素材格式 查找元素：('xpath', '//a[@data-index="adv/advmaterialtype.html"]').]
+Tue 02 Jun 2020 11:33:27 basepage.py click_element INFO [line:101 在点击素材格式点击元素('xpath', '//a[@data-index="adv/advmaterialtype.html"]')]
+Tue 02 Jun 2020 11:33:27 basepage.py switch_to_iframe INFO [line:153 在切换至素材格式iframe等待iframe元素('xpath', '//div[@id="iframe_adv_advmaterialtype_html"]//iframe[@class="tab_iframe"]')可用并切换到iframe]
+Tue 02 Jun 2020 11:33:28 basepage.py wait_element_visible INFO [line:19 在点击复选框开始等待('xpath', '//input[@data-index="0" and @name="btSelectItem"]')元素可见]
+Tue 02 Jun 2020 11:33:28 basepage.py wait_element_visible INFO [line:32 等待元素可见共用时：0:00:00.025930]
+Tue 02 Jun 2020 11:33:28 basepage.py get_element INFO [line:77 在 点击复选框 查找元素：('xpath', '//input[@data-index="0" and @name="btSelectItem"]').]
+Tue 02 Jun 2020 11:33:28 basepage.py click_element INFO [line:101 在点击复选框点击元素('xpath', '//input[@data-index="0" and @name="btSelectItem"]')]
+Tue 02 Jun 2020 11:33:28 basepage.py wait_element_visible INFO [line:19 在点击删除按钮开始等待('xpath', '//a[@id="delete"]')元素可见]
+Tue 02 Jun 2020 11:33:29 basepage.py wait_element_visible INFO [line:32 等待元素可见共用时：0:00:00.061835]
+Tue 02 Jun 2020 11:33:29 basepage.py get_element INFO [line:77 在 点击删除按钮 查找元素：('xpath', '//a[@id="delete"]').]
+Tue 02 Jun 2020 11:33:29 basepage.py click_element INFO [line:101 在点击删除按钮点击元素('xpath', '//a[@id="delete"]')]
+Tue 02 Jun 2020 11:33:29 basepage.py wait_element_visible INFO [line:19 在点击确定按钮开始等待('xpath', '//a[@class="layui-layer-btn0"]')元素可见]
+Tue 02 Jun 2020 11:33:29 basepage.py wait_element_visible INFO [line:32 等待元素可见共用时：0:00:00.075798]
+Tue 02 Jun 2020 11:33:29 basepage.py get_element INFO [line:77 在 点击确定按钮 查找元素：('xpath', '//a[@class="layui-layer-btn0"]').]
+Tue 02 Jun 2020 11:33:29 basepage.py click_element INFO [line:101 在点击确定按钮点击元素('xpath', '//a[@class="layui-layer-btn0"]')]
+Tue 02 Jun 2020 11:33:29 basepage.py wait_element_visible INFO [line:19 在点击确定按钮开始等待('xpath', '//a[@class="layui-layer-btn0"]')元素可见]
+Tue 02 Jun 2020 11:33:29 basepage.py wait_element_visible INFO [line:32 等待元素可见共用时：0:00:00.019947]
+Tue 02 Jun 2020 11:33:29 basepage.py get_element INFO [line:77 在 点击确定按钮 查找元素：('xpath', '//a[@class="layui-layer-btn0"]').]
+Tue 02 Jun 2020 11:33:29 basepage.py click_element INFO [line:101 在点击确定按钮点击元素('xpath', '//a[@class="layui-layer-btn0"]')]
+Tue 02 Jun 2020 11:33:29 basepage.py save_page_shot INFO [line:74 截取当前网页图片成功，并保存在：D:\python\PycharmProjects\practise02_web_rojao\outputs/screenshots\点击确定按钮_2020-06-02 11_33_29.png]
+Tue 02 Jun 2020 11:33:29 basepage.py click_element ERROR [line:106 点击元素失败]
+Traceback (most recent call last):
+  File "D:\python\PycharmProjects\practise02_web_rojao\common\basepage.py", line 103, in click_element
+    ele.click()
+  File "C:\Users\zt\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\zt\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\zt\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\zt\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=81.0.4044.138)
+
+Tue 02 Jun 2020 11:33:29 test_material_format.py init INFO [line:15 素材格式测试用例自己的后置]
+Tue 02 Jun 2020 11:33:29 conftest.py init_login INFO [line:28 init_login后置]
+Tue 02 Jun 2020 11:33:32 conftest.py init_driver INFO [line:20 *****conftest.py共享的init_driver的后置*****]

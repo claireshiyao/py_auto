@@ -1,0 +1,11 @@
+test_register.py:66:class25:ERROR-断言失败，用例不通过： :: nested exception is org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 4 != 账号已存在
+test_register.py:66:class25:ERROR-断言失败，用例不通过： :: 无效的手机格式 != OK
+test_register.py:66:class25:ERROR-断言失败，用例不通过： :: nested exception is org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 4 != 账号已存在
+test_register.py:66:class25:ERROR-断言失败，用例不通过： :: 无效的手机格式 != OK
+test_register.py:66:class25:ERROR-断言失败，用例不通过： :: 无效的手机格式 != OK
+test_register.py:66:class25:ERROR-断言失败，用例不通过： :: nested exception is org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 4 != 账号已存在
+test_register.py:66:class25:ERROR-断言失败，用例不通过： :: 无效的手机格式 != OK
+test_register.py:66:class25:ERROR-断言失败，用例不通过： :: nested exception is org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 4 != 账号已存在
+test_register.py:66:class25:ERROR-断言失败，用例不通过： :: 无效的手机格式 != OK
+test_register.py:66:class25:ERROR-断言失败，用例不通过： :: nested exception is org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 4 != 账号已存在
+test_register.py:66:class25:ERROR-断言失败，用例不通过： :: nested exception is org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 4 != 账号已存在

@@ -1,0 +1,84 @@
+2、web自动化是什么？  用代码代替我的双手 --  点点点网页。
+
+代码 ---      中间件     ---- 浏览器
+
+python         驱动            ie/firefox/chrome/safari/edge
+
+java
+
+c#..
+
+ie - ieserverdriver
+
+chrome - chromedriver
+
+firefox - geckodriver
+
+
+
+http通信    客户端:python、java....              服务端：XXXdriver
+
+通信暗号：访问url  - 暗号1   输入操作 - 暗号2    点击操作 - 暗号3
+
+1、打开google,访问柠檬班 -  指令1 - 接口
+
+2、输入用户名  - 指令2
+
+3、输入密码 - 指令3
+
+4、点击登录 - 指令4
+
+5、看一下是否登陆成功
+
+
+
+selenium webdriver - api都是一个http通信，一个接口。
+
+1） 接口地址
+
+2）请求方法
+
+3）请求参数 - json格式
+
+http通信    全称：jsonWireProtocol - 暗号集合
+
+
+
+http通信    客户端:python、java....              服务端：XXXdriver - 浏览器的驱动
+
+通信流程：
+
+1）XXXdriver启动。ip+端口监听中。
+
+2）python selenium webdriver跟XXXdriver建立连接，然后发送http请求。
+
+3）XXXdriver收到指令之后，驱动浏览器把事儿办儿
+
+4）XXXdriver要把结果返回给python selenium webdriver.
+
+5)  继续发下一个http请求。
+
+。。。。。
+
+最后，断开连接，关闭驱动服务，关闭浏览器。
+
+
+
+
+
+
+
+
+
+人   ---  浏览器
+
+
+
+3、selenium是什么？
+
+​      ide  - 录制 -
+
+​      webdriver - 库 - 提供了对网页操作的各种方法 - python、java、C#...
+
+​      grid - 分布式
+

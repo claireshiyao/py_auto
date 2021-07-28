@@ -1,0 +1,50 @@
+INFO     root:conftest.py:12 *****conftest.py共享的init_driver的前置*****
+INFO     root:conftest.py:25 init_login前置
+INFO     root:basepage.py:19 在登录页面-输入用户名开始等待('id', 'username')元素可见
+INFO     root:basepage.py:32 等待元素可见共用时：0:00:00.046874
+INFO     root:basepage.py:77 在 登录页面-输入用户名 查找元素：('id', 'username').
+INFO     root:basepage.py:112 在登录页面-输入用户名输入文本admin
+INFO     root:basepage.py:19 在登录页面-输入密码开始等待('id', 'password')元素可见
+INFO     root:basepage.py:32 等待元素可见共用时：0:00:00.035904
+INFO     root:basepage.py:77 在 登录页面-输入密码 查找元素：('id', 'password').
+INFO     root:basepage.py:112 在登录页面-输入密码输入文本Rojao@123
+INFO     root:basepage.py:19 在登录页面-点击登录按钮开始等待('id', 'to-recover')元素可见
+INFO     root:basepage.py:32 等待元素可见共用时：0:00:00.035904
+INFO     root:basepage.py:77 在 登录页面-点击登录按钮 查找元素：('id', 'to-recover').
+INFO     root:basepage.py:101 在登录页面-点击登录按钮点击元素('id', 'to-recover')
+INFO     root:test_material_format.py:12 素材格式测试用例自己的前置
+INFO     root:basepage.py:19 在点击广告管理开始等待('xpath', '//i[@class="fa fa-star-half-o"]')元素可见
+INFO     root:basepage.py:32 等待元素可见共用时：0:00:02.098387
+INFO     root:basepage.py:77 在 点击广告管理 查找元素：('xpath', '//i[@class="fa fa-star-half-o"]').
+INFO     root:basepage.py:101 在点击广告管理点击元素('xpath', '//i[@class="fa fa-star-half-o"]')
+INFO     root:basepage.py:19 在点击素材格式开始等待('xpath', '//a[@data-index="adv/advmaterialtype.html"]')元素可见
+INFO     root:basepage.py:32 等待元素可见共用时：0:00:00.088761
+INFO     root:basepage.py:77 在 点击素材格式 查找元素：('xpath', '//a[@data-index="adv/advmaterialtype.html"]').
+INFO     root:basepage.py:101 在点击素材格式点击元素('xpath', '//a[@data-index="adv/advmaterialtype.html"]')
+INFO     root:basepage.py:153 在切换至素材格式iframe等待iframe元素('xpath', '//div[@id="iframe_adv_advmaterialtype_html"]//iframe[@class="tab_iframe"]')可用并切换到iframe
+INFO     root:basepage.py:19 在点击复选框开始等待('xpath', '//input[@data-index="0" and @name="btSelectItem"]')元素可见
+INFO     root:basepage.py:32 等待元素可见共用时：0:00:00.548532
+INFO     root:basepage.py:77 在 点击复选框 查找元素：('xpath', '//input[@data-index="0" and @name="btSelectItem"]').
+INFO     root:basepage.py:101 在点击复选框点击元素('xpath', '//input[@data-index="0" and @name="btSelectItem"]')
+INFO     root:basepage.py:19 在点击删除按钮开始等待('xpath', '//a[@id="delete"]')元素可见
+INFO     root:basepage.py:32 等待元素可见共用时：0:00:00.071808
+INFO     root:basepage.py:77 在 点击删除按钮 查找元素：('xpath', '//a[@id="delete"]').
+INFO     root:basepage.py:101 在点击删除按钮点击元素('xpath', '//a[@id="delete"]')
+INFO     root:basepage.py:74 截取当前网页图片成功，并保存在：D:\python\PycharmProjects\practise02_web_rojao\outputs/screenshots\点击删除按钮_2020-06-02 10_03_38.png
+ERROR    root:basepage.py:106 点击元素失败
+Traceback (most recent call last):
+  File "D:\python\PycharmProjects\practise02_web_rojao\common\basepage.py", line 103, in click_element
+    ele.click()
+  File "C:\Users\zt\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\zt\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\zt\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\zt\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a id="delete" class="btn btn-primary" disabled="disabled">...</a> is not clickable at point (197, 72). Other element would receive the click: <div id="toolbar" class="grid-btn">...</div>
+  (Session info: chrome=81.0.4044.138)
+INFO     root:test_material_format.py:15 素材格式测试用例自己的后置
+INFO     root:conftest.py:28 init_login后置
+INFO     root:conftest.py:20 *****conftest.py共享的init_driver的后置*****

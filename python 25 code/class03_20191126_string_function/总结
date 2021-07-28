@@ -1,0 +1,23 @@
+字符串的函数：
+len()
+join()
+split()
+find()
+index()
+replace()
+strip()
+isdigit()
+count()
+upper()
+
+
+列表
+添加，删除，修改
+insert,append,extend
+pop,remove,del
+a[1] = 'newValue'
+
+列表的操作
+sort
+reverse
+index

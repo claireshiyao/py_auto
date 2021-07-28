@@ -1,0 +1,3 @@
+test_01_register.py:58:python25:ERROR-断言失败，用例不通过： :: 2 != 0
+test_01_register.py:58:python25:ERROR-断言失败，用例不通过：2 != 0
+test_01_register.py:58:python25:ERROR-断言失败，用例不通过：2 != 0

@@ -1,0 +1,87 @@
+1、uiaotumatorviewrer  --- UiAutomator / UiAutomator2   --查看界面元素 - resourceId、text、description
+
+2、weditor - python语言Uiautomator2  -- xpath
+
+3、appium inspector  --- appium  -- 支持多语言  - id/xpath
+
+
+### weditor在手机上安装的ATX应用，会影响appium执行自动化脚本，uiautomator框架服务启动失败。
+### 在执行appium脚本之前，要删除ATX应用。
+
+1）元素定位
+   id
+   accessibility-id (description)
+   android-uiautomator
+   xpath
+   class
+   坐标
+
+2）元素操作 - 输入/点击/属性/文本
+    swipe - 滑动
+    toucation???
+    multiaction??
+    tap??  ---
+
+
+
+
+id ---
+text ---
+description ---
+
+xpath
+
+
+命令
+定位方式
+元素操作
+
+1、id
+2、android_uiautomator
+
+滑屏操作  上下左右滑屏
+触屏操作 九宫格/拖zhuai/长按
+
+应用切换
+toast处理
+h5应用
+微信小程序
+
+安装app
+卸载app
+打开app
+关闭app
+打开通知栏
+清除数据
+解锁
+
+安装应用：
+driver.install_app('path/to/my.apk')
+
+卸载应用：
+driver.remove_app('com.example.android.apis')
+
+关闭应用
+driver.close_app();
+
+应用是否已安装：检测应用是否已被安装。
+driver.is_app_installed('com.example.android.apis')
+
+拉取（pull）文件
+从设备上拉取文件。
+driver.pull_file('Library/AddressBook/AddressBook.sqlitedb')
+
+
+推送（push）文件
+推送文件到设备。
+data = "some data for the file"
+path = "/data/local/tmp/file.txt"
+driver.push_file(path, data.encode('base64'))
+
+# driver.lock()
+# driver.unlock()
+# driver.is_locked()
+
+driver.background_app(10)
+open_notifications
+

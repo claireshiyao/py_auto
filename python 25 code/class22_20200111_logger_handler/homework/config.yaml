@@ -1,0 +1,10 @@
+excel:
+  excel_path: test_cases_0112.xlsx
+  sheetname: login
+
+logger:
+  name: log0112
+  level: DEBUG
+  file: log0112.txt
+
+

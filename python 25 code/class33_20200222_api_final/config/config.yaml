@@ -1,0 +1,20 @@
+logger:
+  name: python25
+  level: WARNING
+  file: class33_log.txt
+
+excel:
+  file: cases.xlsx
+  sheet: login
+
+# request配置
+request:
+  method: post
+
+database:
+  host: '120.78.128.25'
+  port: 3306
+  user: 'future'
+  password: '123456'
+  charset: 'utf8'
+  database: 'futureloan'

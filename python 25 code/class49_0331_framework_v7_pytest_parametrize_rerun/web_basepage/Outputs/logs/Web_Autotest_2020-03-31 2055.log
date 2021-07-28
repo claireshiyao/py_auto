@@ -1,0 +1,20 @@
+ Tue, 31 Mar 2020 20:55:57  INFO logger.py <module> [ line:24 ] hehehe
+ Tue, 31 Mar 2020 20:55:57  INFO conftest.py init_driver [ line:16 ] ***** conftest.py共享的 init_driver 的前置  *****
+ Tue, 31 Mar 2020 20:58:02  INFO test_login.py init [ line:25 ] ***** login用例自己的 init 的前置  *****
+ Tue, 31 Mar 2020 20:58:02  INFO test_login.py test_login_success [ line:36 ] ******* 登陆功能 - 正常场景用例：登陆成功 *******
+ Tue, 31 Mar 2020 20:58:02  INFO basepage.py wait_ele_visible [ line:40 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Tue, 31 Mar 2020 20:58:02  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2020-03-31 20:58:02.292422,结束时间为:2020-03-31 20:58:02.376377,一共等待耗时为:0:00:00.083955
+ Tue, 31 Mar 2020 20:58:02  INFO basepage.py get_element [ line:76 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Tue, 31 Mar 2020 20:58:02  INFO basepage.py input_text [ line:92 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+ Tue, 31 Mar 2020 20:58:02  INFO basepage.py wait_ele_visible [ line:40 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Tue, 31 Mar 2020 20:58:02  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2020-03-31 20:58:02.623235,结束时间为:2020-03-31 20:58:02.786145,一共等待耗时为:0:00:00.162910
+ Tue, 31 Mar 2020 20:58:02  INFO basepage.py get_element [ line:76 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Tue, 31 Mar 2020 20:58:02  INFO basepage.py input_text [ line:92 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python
+ Tue, 31 Mar 2020 20:58:03  INFO basepage.py wait_ele_visible [ line:40 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Tue, 31 Mar 2020 20:58:03  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2020-03-31 20:58:03.133940,结束时间为:2020-03-31 20:58:03.225886,一共等待耗时为:0:00:00.091946
+ Tue, 31 Mar 2020 20:58:03  INFO basepage.py get_element [ line:76 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Tue, 31 Mar 2020 20:58:03  INFO basepage.py click_element [ line:106 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Tue, 31 Mar 2020 20:58:03  INFO basepage.py check_element_visible [ line:156 ] 首页_检测退出元素是否存在: 检测元素 ('xpath', '//a[text()="退出"]') 存在且可见于页面。
+ Tue, 31 Mar 2020 20:58:25  INFO basepage.py check_element_visible [ line:164 ]  10秒内元素可见。
+ Tue, 31 Mar 2020 20:58:25  INFO test_login.py init [ line:28 ] ***** login用例自己的 init 的后置  *****
+ Tue, 31 Mar 2020 20:58:27  INFO conftest.py init_driver [ line:21 ] ***** conftest.py共享的 init_driver 的后置  *****

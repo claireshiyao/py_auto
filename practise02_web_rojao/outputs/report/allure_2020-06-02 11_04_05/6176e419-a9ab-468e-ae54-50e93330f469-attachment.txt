@@ -1,0 +1,44 @@
+INFO     root:conftest.py:12 *****conftest.py共享的init_driver的前置*****
+INFO     root:conftest.py:25 init_login前置
+INFO     root:basepage.py:19 在登录页面-输入用户名开始等待('id', 'username')元素可见
+INFO     root:basepage.py:32 等待元素可见共用时：0:00:00.041887
+INFO     root:basepage.py:77 在 登录页面-输入用户名 查找元素：('id', 'username').
+INFO     root:basepage.py:112 在登录页面-输入用户名输入文本admin
+INFO     root:basepage.py:19 在登录页面-输入密码开始等待('id', 'password')元素可见
+INFO     root:basepage.py:32 等待元素可见共用时：0:00:00.045877
+INFO     root:basepage.py:77 在 登录页面-输入密码 查找元素：('id', 'password').
+INFO     root:basepage.py:112 在登录页面-输入密码输入文本Rojao@123
+INFO     root:basepage.py:19 在登录页面-点击登录按钮开始等待('id', 'to-recover')元素可见
+INFO     root:basepage.py:32 等待元素可见共用时：0:00:00.027926
+INFO     root:basepage.py:77 在 登录页面-点击登录按钮 查找元素：('id', 'to-recover').
+INFO     root:basepage.py:101 在登录页面-点击登录按钮点击元素('id', 'to-recover')
+INFO     root:test_material_format.py:12 素材格式测试用例自己的前置
+INFO     root:basepage.py:19 在点击广告管理开始等待('xpath', '//i[@class="fa fa-star-half-o"]')元素可见
+INFO     root:basepage.py:32 等待元素可见共用时：0:00:00.888623
+INFO     root:basepage.py:77 在 点击广告管理 查找元素：('xpath', '//i[@class="fa fa-star-half-o"]').
+INFO     root:basepage.py:101 在点击广告管理点击元素('xpath', '//i[@class="fa fa-star-half-o"]')
+INFO     root:basepage.py:19 在点击素材格式开始等待('xpath', '//a[@data-index="adv/advmaterialtype.html"]')元素可见
+INFO     root:basepage.py:32 等待元素可见共用时：0:00:00.047871
+INFO     root:basepage.py:77 在 点击素材格式 查找元素：('xpath', '//a[@data-index="adv/advmaterialtype.html"]').
+INFO     root:basepage.py:101 在点击素材格式点击元素('xpath', '//a[@data-index="adv/advmaterialtype.html"]')
+INFO     root:basepage.py:153 在切换至素材格式iframe等待iframe元素('xpath', '//div[@id="iframe_adv_advmaterialtype_html"]//iframe[@class="tab_iframe"]')可用并切换到iframe
+INFO     root:basepage.py:19 在点击新增开始等待('xpath', '//a[contains(text(),"新增")]')元素可见
+INFO     root:basepage.py:32 等待元素可见共用时：0:00:00.081782
+INFO     root:basepage.py:77 在 点击新增 查找元素：('xpath', '//a[contains(text(),"新增")]').
+INFO     root:basepage.py:101 在点击新增点击元素('xpath', '//a[contains(text(),"新增")]')
+INFO     root:basepage.py:19 在输入素材格式名称开始等待('xpath', '//input[@name="materialTypeName"]')元素可见
+INFO     root:basepage.py:32 等待元素可见共用时：0:00:00.029920
+INFO     root:basepage.py:77 在 输入素材格式名称 查找元素：('xpath', '//input[@name="materialTypeName"]').
+INFO     root:basepage.py:112 在输入素材格式名称输入文本brGaRI
+INFO     root:basepage.py:19 在点击确定开始等待('xpath', '//input[@id="validateBtn"]')元素可见
+INFO     root:basepage.py:74 截取当前网页图片成功，并保存在：D:\python\PycharmProjects\practise02_web_rojao\outputs/screenshots\点击确定_2020-06-02 11_02_44.png
+ERROR    root:basepage.py:26 等待元素可见失败
+Traceback (most recent call last):
+  File "D:\python\PycharmProjects\practise02_web_rojao\common\basepage.py", line 23, in wait_element_visible
+    WebDriverWait(self.driver, timeout, poll_frequency=poll_frequency).until(EC.visibility_of_element_located(loc))
+  File "C:\Users\zt\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message:
+INFO     root:test_material_format.py:15 素材格式测试用例自己的后置
+INFO     root:conftest.py:28 init_login后置
+INFO     root:conftest.py:20 *****conftest.py共享的init_driver的后置*****

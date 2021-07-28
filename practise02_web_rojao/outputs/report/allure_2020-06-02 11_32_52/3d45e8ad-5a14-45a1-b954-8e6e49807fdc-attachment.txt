@@ -1,0 +1,50 @@
+INFO     root:conftest.py:12 *****conftest.py共享的init_driver的前置*****
+INFO     root:conftest.py:25 init_login前置
+INFO     root:basepage.py:19 在登录页面-输入用户名开始等待('id', 'username')元素可见
+INFO     root:basepage.py:32 等待元素可见共用时：0:00:00.024933
+INFO     root:basepage.py:77 在 登录页面-输入用户名 查找元素：('id', 'username').
+INFO     root:basepage.py:112 在登录页面-输入用户名输入文本admin
+INFO     root:basepage.py:19 在登录页面-输入密码开始等待('id', 'password')元素可见
+INFO     root:basepage.py:32 等待元素可见共用时：0:00:00.031914
+INFO     root:basepage.py:77 在 登录页面-输入密码 查找元素：('id', 'password').
+INFO     root:basepage.py:112 在登录页面-输入密码输入文本Rojao@123
+INFO     root:basepage.py:19 在登录页面-点击登录按钮开始等待('id', 'to-recover')元素可见
+INFO     root:basepage.py:32 等待元素可见共用时：0:00:00.023940
+INFO     root:basepage.py:77 在 登录页面-点击登录按钮 查找元素：('id', 'to-recover').
+INFO     root:basepage.py:101 在登录页面-点击登录按钮点击元素('id', 'to-recover')
+INFO     root:test_material_format.py:12 素材格式测试用例自己的前置
+INFO     root:basepage.py:19 在点击广告管理开始等待('xpath', '//i[@class="fa fa-star-half-o"]')元素可见
+INFO     root:basepage.py:32 等待元素可见共用时：0:00:00.023933
+INFO     root:basepage.py:77 在 点击广告管理 查找元素：('xpath', '//i[@class="fa fa-star-half-o"]').
+INFO     root:basepage.py:101 在点击广告管理点击元素('xpath', '//i[@class="fa fa-star-half-o"]')
+INFO     root:basepage.py:19 在点击素材格式开始等待('xpath', '//a[@data-index="adv/advmaterialtype.html"]')元素可见
+INFO     root:basepage.py:32 等待元素可见共用时：0:00:00.076794
+INFO     root:basepage.py:77 在 点击素材格式 查找元素：('xpath', '//a[@data-index="adv/advmaterialtype.html"]').
+INFO     root:basepage.py:101 在点击素材格式点击元素('xpath', '//a[@data-index="adv/advmaterialtype.html"]')
+INFO     root:basepage.py:153 在切换至素材格式iframe等待iframe元素('xpath', '//div[@id="iframe_adv_advmaterialtype_html"]//iframe[@class="tab_iframe"]')可用并切换到iframe
+INFO     root:basepage.py:19 在点击新增开始等待('xpath', '//a[contains(text(),"新增")]')元素可见
+INFO     root:basepage.py:32 等待元素可见共用时：0:00:00.025931
+INFO     root:basepage.py:77 在 点击新增 查找元素：('xpath', '//a[contains(text(),"新增")]').
+INFO     root:basepage.py:101 在点击新增点击元素('xpath', '//a[contains(text(),"新增")]')
+INFO     root:basepage.py:19 在输入素材格式名称开始等待('xpath', '//input[@name="materialTypeName"]')元素可见
+INFO     root:basepage.py:32 等待元素可见共用时：0:00:00.027924
+INFO     root:basepage.py:77 在 输入素材格式名称 查找元素：('xpath', '//input[@name="materialTypeName"]').
+INFO     root:basepage.py:112 在输入素材格式名称输入文本94VEOg
+INFO     root:basepage.py:19 在勾选文字素材类型开始等待('xpath', '//input[@name="picOrVideo" and @value="2"]')元素可见
+INFO     root:basepage.py:32 等待元素可见共用时：0:00:00.023936
+INFO     root:basepage.py:77 在 勾选文字素材类型 查找元素：('xpath', '//input[@name="picOrVideo" and @value="2"]').
+INFO     root:basepage.py:101 在勾选文字素材类型点击元素('xpath', '//input[@name="picOrVideo" and @value="2"]')
+INFO     root:basepage.py:19 在点击确定开始等待('xpath', '//input[@id="validateBtn"]')元素可见
+INFO     root:basepage.py:32 等待元素可见共用时：0:00:00.020944
+INFO     root:basepage.py:77 在 点击确定 查找元素：('xpath', '//input[@id="validateBtn"]').
+INFO     root:basepage.py:101 在点击确定点击元素('xpath', '//input[@id="validateBtn"]')
+INFO     root:basepage.py:19 在点击确定开始等待('xpath', '//input[@id="validateBtn"]')元素可见
+INFO     root:basepage.py:32 等待元素可见共用时：0:00:00.036861
+INFO     root:basepage.py:77 在 点击确定 查找元素：('xpath', '//input[@id="validateBtn"]').
+INFO     root:basepage.py:101 在点击确定点击元素('xpath', '//input[@id="validateBtn"]')
+INFO     root:basepage.py:19 在等待提示元素可见开始等待['xpath', '//div[@class="layui-layer-content"]']元素可见
+INFO     root:basepage.py:32 等待元素可见共用时：0:00:00.027915
+INFO     root:basepage.py:88 在 获取提示文本元素 查找所有匹配到的元素：['xpath', '//div[@class="layui-layer-content"]'].
+INFO     root:test_material_format.py:15 素材格式测试用例自己的后置
+INFO     root:conftest.py:28 init_login后置
+INFO     root:conftest.py:20 *****conftest.py共享的init_driver的后置*****
